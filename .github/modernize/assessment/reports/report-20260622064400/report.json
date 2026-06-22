@@ -543,5 +543,637 @@
         "os=linux"
       ]
     }
-  }
+  },
+  "security": [
+    {
+      "id": "CVE-2025-41249",
+      "title": "Spring Framework annotation detection mechanism may result in improper authorization",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-41249](https://github.com/advisories/GHSA-jmp9-x22r-554x): Spring Framework annotation detection mechanism may result in improper authorization\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-core:6.0.13 (declared at build.gradle)",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2025-41249](https://github.com/advisories/GHSA-jmp9-x22r-554x): Spring Framework annotation detection mechanism may result in improper authorization\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-core:6.0.13 (declared at build.gradle)"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-22235",
+      "title": "Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-22235](https://github.com/advisories/GHSA-rc42-6c7j-7h5r): Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot:3.1.5 (declared at build.gradle:25)",
+      "evidence": {
+        "files": [
+          "build.gradle:25"
+        ],
+        "explanation": "[CVE-2025-22235](https://github.com/advisories/GHSA-rc42-6c7j-7h5r): Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot:3.1.5 (declared at build.gradle:25)"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-22262",
+      "title": "Spring Framework URL Parsing with Host Validation",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-22262](https://github.com/advisories/GHSA-2wrp-6fg6-hmc5): Spring Framework URL Parsing with Host Validation\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web:6.0.13 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.springframework:spring-web to 5.3.34 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2024-22262](https://github.com/advisories/GHSA-2wrp-6fg6-hmc5): Spring Framework URL Parsing with Host Validation\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web:6.0.13 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.springframework:spring-web to 5.3.34 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-22259",
+      "title": "Spring Framework URL Parsing with Host Validation Vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-22259](https://github.com/advisories/GHSA-hgjh-9rj2-g67j): Spring Framework URL Parsing with Host Validation Vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web:6.0.13 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.springframework:spring-web to 6.1.5 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2024-22259](https://github.com/advisories/GHSA-hgjh-9rj2-g67j): Spring Framework URL Parsing with Host Validation Vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web:6.0.13 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.springframework:spring-web to 6.1.5 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-22243",
+      "title": "Spring Web vulnerable to Open Redirect or Server Side Request Forgery",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-22243](https://github.com/advisories/GHSA-ccgv-vj62-xf9h): Spring Web vulnerable to Open Redirect or Server Side Request Forgery\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web:6.0.13 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.springframework:spring-web to 6.1.4 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2024-22243](https://github.com/advisories/GHSA-ccgv-vj62-xf9h): Spring Web vulnerable to Open Redirect or Server Side Request Forgery\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-web:6.0.13 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.springframework:spring-web to 6.1.4 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2023-6378",
+      "title": "logback serialization vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2023-6378](https://github.com/advisories/GHSA-vmq6-5m68-f53m): logback serialization vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - ch.qos.logback:logback-classic:1.4.11 (declared at build.gradle)\n  - ch.qos.logback:logback-core:1.4.11 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade ch.qos.logback:logback-classic to 1.4.12 or later\n  - Upgrade ch.qos.logback:logback-core to 1.4.12 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2023-6378](https://github.com/advisories/GHSA-vmq6-5m68-f53m): logback serialization vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - ch.qos.logback:logback-classic:1.4.11 (declared at build.gradle)\n  - ch.qos.logback:logback-core:1.4.11 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade ch.qos.logback:logback-classic to 1.4.12 or later\n  - Upgrade ch.qos.logback:logback-core to 1.4.12 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2022-1471",
+      "title": "SnakeYaml Constructor Deserialization Remote Code Execution",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2022-1471](https://github.com/advisories/GHSA-mjmj-j48q-9wg2): SnakeYaml Constructor Deserialization Remote Code Execution\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.yaml:snakeyaml:1.33 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.yaml:snakeyaml to 2.0 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2022-1471](https://github.com/advisories/GHSA-mjmj-j48q-9wg2): SnakeYaml Constructor Deserialization Remote Code Execution\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.yaml:snakeyaml:1.33 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.yaml:snakeyaml to 2.0 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41284",
+      "title": "Apache Tomcat: Unbounded read in WebDAV LOCK and  PROPFIND handling",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-41284](https://github.com/advisories/GHSA-gx5v-xp9w-j4cg): Apache Tomcat: Unbounded read in WebDAV LOCK and  PROPFIND handling\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.118 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2026-41284](https://github.com/advisories/GHSA-gx5v-xp9w-j4cg): Apache Tomcat: Unbounded read in WebDAV LOCK and  PROPFIND handling\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.118 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-43512",
+      "title": "Apache Tomcat - Digest authenticator will authenticate any unknown user",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-43512](https://github.com/advisories/GHSA-h6fc-48rj-7qqh): Apache Tomcat - Digest authenticator will authenticate any unknown user\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.118 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2026-43512](https://github.com/advisories/GHSA-h6fc-48rj-7qqh): Apache Tomcat - Digest authenticator will authenticate any unknown user\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.118 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-43513",
+      "title": "Apache Tomcat: LockOutRealm treats user names as case-sensitive",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-43513](https://github.com/advisories/GHSA-5mp6-jrq3-r938): Apache Tomcat: LockOutRealm treats user names as case-sensitive\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.118 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2026-43513](https://github.com/advisories/GHSA-5mp6-jrq3-r938): Apache Tomcat: LockOutRealm treats user names as case-sensitive\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.118 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-43515",
+      "title": "Apache Tomcat - Security constraints not correctly applied",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-43515](https://github.com/advisories/GHSA-5m62-pw8w-7w9f): Apache Tomcat - Security constraints not correctly applied\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.118 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2026-43515](https://github.com/advisories/GHSA-5m62-pw8w-7w9f): Apache Tomcat - Security constraints not correctly applied\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.118 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-41293",
+      "title": "Apache Tomcat - HTTP/2 request headers not validated",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-41293](https://github.com/advisories/GHSA-r29c-68gh-xp6x): Apache Tomcat - HTTP/2 request headers not validated\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.118 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2026-41293](https://github.com/advisories/GHSA-r29c-68gh-xp6x): Apache Tomcat - HTTP/2 request headers not validated\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.118 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-42498",
+      "title": "Apache Tomcat - WebSocket authentication header exposure",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-42498](https://github.com/advisories/GHSA-fv25-8xcx-gqjc): Apache Tomcat - WebSocket authentication header exposure\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.118 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2026-42498](https://github.com/advisories/GHSA-fv25-8xcx-gqjc): Apache Tomcat - WebSocket authentication header exposure\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.118 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-34483",
+      "title": "Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-34483](https://github.com/advisories/GHSA-rv64-5gf8-9qq8): Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.116 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2026-34483](https://github.com/advisories/GHSA-rv64-5gf8-9qq8): Apache Tomcat has an Improper Encoding or Escaping of Output vulnerability in the JsonAccessLogValve\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.116 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-24880",
+      "title": "Apache Tomcat has an HTTP Request/Response Smuggling vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-24880](https://github.com/advisories/GHSA-563x-q5rq-57qp): Apache Tomcat has an HTTP Request/Response Smuggling vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.116 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2026-24880](https://github.com/advisories/GHSA-563x-q5rq-57qp): Apache Tomcat has an HTTP Request/Response Smuggling vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 9.0.116 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-24734",
+      "title": "Apache Tomcat has an Improper Input Validation vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-24734](https://github.com/advisories/GHSA-mgp5-rv84-w37q): Apache Tomcat has an Improper Input Validation vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.18 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2026-24734](https://github.com/advisories/GHSA-mgp5-rv84-w37q): Apache Tomcat has an Improper Input Validation vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.18 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-55752",
+      "title": "Apache Tomcat Vulnerable to Relative Path Traversal",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-55752](https://github.com/advisories/GHSA-wmwf-9ccg-fff5): Apache Tomcat Vulnerable to Relative Path Traversal\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.11 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2025-55752](https://github.com/advisories/GHSA-wmwf-9ccg-fff5): Apache Tomcat Vulnerable to Relative Path Traversal\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.11 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-48989",
+      "title": "Apache Tomcat Improper Resource Shutdown or Release vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-48989](https://github.com/advisories/GHSA-gqp3-2cvr-x8m3): Apache Tomcat Improper Resource Shutdown or Release vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.10 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2025-48989](https://github.com/advisories/GHSA-gqp3-2cvr-x8m3): Apache Tomcat Improper Resource Shutdown or Release vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.10 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-53506",
+      "title": "Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-53506](https://github.com/advisories/GHSA-25xr-qj8w-c4vf): Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2025-53506](https://github.com/advisories/GHSA-25xr-qj8w-c4vf): Apache Tomcat Coyote vulnerable to Denial of Service via excessive HTTP/2 streams\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-52520",
+      "title": "Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-52520](https://github.com/advisories/GHSA-wr62-c79q-cv37): Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.9 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2025-52520](https://github.com/advisories/GHSA-wr62-c79q-cv37): Apache Tomcat Catalina is vulnerable to DoS attack through bypassing of size limits\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.9 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-48988",
+      "title": "Apache Tomcat - DoS in multipart upload",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-48988](https://github.com/advisories/GHSA-h3gc-qfqq-6h8f): Apache Tomcat - DoS in multipart upload\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.8 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2025-48988](https://github.com/advisories/GHSA-h3gc-qfqq-6h8f): Apache Tomcat - DoS in multipart upload\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.8 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-24813",
+      "title": "Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-24813](https://github.com/advisories/GHSA-83qj-6fr2-vhqg): Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.3 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2025-24813](https://github.com/advisories/GHSA-83qj-6fr2-vhqg): Apache Tomcat: Potential RCE and/or information disclosure and/or information corruption with partial PUT\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.3 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-56337",
+      "title": "Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-56337](https://github.com/advisories/GHSA-27hp-xhwr-wr2m): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.2 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2024-56337](https://github.com/advisories/GHSA-27hp-xhwr-wr2m): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.2 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-38819",
+      "title": "Spring Framework Path Traversal vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-38819](https://github.com/advisories/GHSA-g5vr-rgqm-vf78): Spring Framework Path Traversal vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.0.13 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.springframework:spring-webmvc to 6.1.14 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2024-38819](https://github.com/advisories/GHSA-g5vr-rgqm-vf78): Spring Framework Path Traversal vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.0.13 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.springframework:spring-webmvc to 6.1.14 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-50379",
+      "title": "Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-50379](https://github.com/advisories/GHSA-5j33-cvvr-w245): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.2 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2024-50379](https://github.com/advisories/GHSA-5j33-cvvr-w245): Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.2 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-38816",
+      "title": "Path traversal vulnerability in functional web frameworks",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-38816](https://github.com/advisories/GHSA-cx7f-g6mp-7hqm): Path traversal vulnerability in functional web frameworks\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.0.13 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.springframework:spring-webmvc to 6.1.13 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2024-38816](https://github.com/advisories/GHSA-cx7f-g6mp-7hqm): Path traversal vulnerability in functional web frameworks\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.0.13 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.springframework:spring-webmvc to 6.1.13 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-34750",
+      "title": "Apache Tomcat - Denial of Service",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-34750](https://github.com/advisories/GHSA-wm9w-rjj3-j356): Apache Tomcat - Denial of Service\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.0-M21 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2024-34750](https://github.com/advisories/GHSA-wm9w-rjj3-j356): Apache Tomcat - Denial of Service\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.0-M21 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2023-46589",
+      "title": "Apache Tomcat Improper Input Validation vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2023-46589](https://github.com/advisories/GHSA-fccv-jmmp-qg76): Apache Tomcat Improper Input Validation vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.0-M11 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2023-46589](https://github.com/advisories/GHSA-fccv-jmmp-qg76): Apache Tomcat Improper Input Validation vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.apache.tomcat.embed:tomcat-embed-core:10.1.15 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.apache.tomcat.embed:tomcat-embed-core to 11.0.0-M11 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2023-34053",
+      "title": "Spring Framework vulnerable to denial of service",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2023-34053](https://github.com/advisories/GHSA-v94h-hvhg-mf9h): Spring Framework vulnerable to denial of service\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.0.13 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.springframework:spring-webmvc to 6.0.14 or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2023-34053](https://github.com/advisories/GHSA-v94h-hvhg-mf9h): Spring Framework vulnerable to denial of service\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework:spring-webmvc:6.0.13 (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade org.springframework:spring-webmvc to 6.0.14 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-50010",
+      "title": "Netty: Wrapping plain trust manager silently disables hostname verification",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-50010](https://github.com/advisories/GHSA-c653-97m9-rcg9): Netty: Wrapping plain trust manager silently disables hostname verification\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-handler:4.1.97.Final (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade io.netty:netty-handler to 4.2.15.Final or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2026-50010](https://github.com/advisories/GHSA-c653-97m9-rcg9): Netty: Wrapping plain trust manager silently disables hostname verification\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-handler:4.1.97.Final (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade io.netty:netty-handler to 4.2.15.Final or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-45416",
+      "title": "Netty: SNI handler pre-allocates up to 16 MiB from nine attacker bytes",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-45416](https://github.com/advisories/GHSA-x4gw-5cx5-pgmh): Netty: SNI handler pre-allocates up to 16 MiB from nine attacker bytes\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-handler:4.1.97.Final (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade io.netty:netty-handler to 4.2.15.Final or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2026-45416](https://github.com/advisories/GHSA-x4gw-5cx5-pgmh): Netty: SNI handler pre-allocates up to 16 MiB from nine attacker bytes\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-handler:4.1.97.Final (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade io.netty:netty-handler to 4.2.15.Final or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-44249",
+      "title": "Netty has an IPv6 Subnet Filter Bypass via Incorrect Comparator Masking",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-44249](https://github.com/advisories/GHSA-3qp7-7mw8-wx86): Netty has an IPv6 Subnet Filter Bypass via Incorrect Comparator Masking\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-handler:4.1.97.Final (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade io.netty:netty-handler to 4.2.15.Final or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2026-44249](https://github.com/advisories/GHSA-3qp7-7mw8-wx86): Netty has an IPv6 Subnet Filter Bypass via Incorrect Comparator Masking\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-handler:4.1.97.Final (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade io.netty:netty-handler to 4.2.15.Final or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-42583",
+      "title": "Netty Lz4FrameDecoder is vulnerable to resource exhaustion ",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-42583](https://github.com/advisories/GHSA-mj4r-2hfc-f8p6): Netty Lz4FrameDecoder is vulnerable to resource exhaustion \n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec:4.1.97.Final (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec to 4.1.133.Final or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2026-42583](https://github.com/advisories/GHSA-mj4r-2hfc-f8p6): Netty Lz4FrameDecoder is vulnerable to resource exhaustion \n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-codec:4.1.97.Final (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade io.netty:netty-codec to 4.1.133.Final or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-24970",
+      "title": "SslHandler doesn't correctly validate packets which can lead to native crash when using native SSLEngine",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-24970](https://github.com/advisories/GHSA-4g8c-wm8x-jfhw): SslHandler doesn't correctly validate packets which can lead to native crash when using native SSLEngine\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-handler:4.1.97.Final (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade io.netty:netty-handler to 4.1.118.Final or later",
+      "evidence": {
+        "files": [
+          "build.gradle"
+        ],
+        "explanation": "[CVE-2025-24970](https://github.com/advisories/GHSA-4g8c-wm8x-jfhw): SslHandler doesn't correctly validate packets which can lead to native crash when using native SSLEngine\n\nSeverity: HIGH\n\nAffected dependencies:\n  - io.netty:netty-handler:4.1.97.Final (declared at build.gradle)\n\nRecommended fix:\n  - Upgrade io.netty:netty-handler to 4.1.118.Final or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-42198",
+      "title": "pgjdbc: Unbounded PBKDF2 iterations in SCRAM authentication allows CPU exhaustion DoS",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-42198](https://github.com/advisories/GHSA-98qh-xjc8-98pq): pgjdbc: Unbounded PBKDF2 iterations in SCRAM authentication allows CPU exhaustion DoS\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.postgresql:postgresql:42.6.0 (declared at build.gradle:39)\n\nRecommended fix:\n  - Upgrade org.postgresql:postgresql to 42.7.11 or later",
+      "evidence": {
+        "files": [
+          "build.gradle:39"
+        ],
+        "explanation": "[CVE-2026-42198](https://github.com/advisories/GHSA-98qh-xjc8-98pq): pgjdbc: Unbounded PBKDF2 iterations in SCRAM authentication allows CPU exhaustion DoS\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.postgresql:postgresql:42.6.0 (declared at build.gradle:39)\n\nRecommended fix:\n  - Upgrade org.postgresql:postgresql to 42.7.11 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2026-22733",
+      "title": "Spring Boot has an Authentication Bypass under Actuator CloudFoundry endpoints",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2026-22733](https://github.com/advisories/GHSA-mgvc-8q2h-5pgc): Spring Boot has an Authentication Bypass under Actuator CloudFoundry endpoints\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-starter-actuator:3.1.3 (declared at build.gradle:26)\n\nRecommended fix:\n  - Upgrade org.springframework.boot:spring-boot-starter-actuator to 4.0.4 or later",
+      "evidence": {
+        "files": [
+          "build.gradle:26"
+        ],
+        "explanation": "[CVE-2026-22733](https://github.com/advisories/GHSA-mgvc-8q2h-5pgc): Spring Boot has an Authentication Bypass under Actuator CloudFoundry endpoints\n\nSeverity: HIGH\n\nAffected dependencies:\n  - org.springframework.boot:spring-boot-starter-actuator:3.1.3 (declared at build.gradle:26)\n\nRecommended fix:\n  - Upgrade org.springframework.boot:spring-boot-starter-actuator to 4.0.4 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2025-59250",
+      "title": "JDBC Driver for SQL Server has improper input validation issue",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2025-59250](https://github.com/advisories/GHSA-m494-w24q-6f7w): JDBC Driver for SQL Server has improper input validation issue\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.microsoft.sqlserver:mssql-jdbc:11.2.3.jre17 (declared at build.gradle:40)\n\nRecommended fix:\n  - Upgrade com.microsoft.sqlserver:mssql-jdbc to 11.2.4.jre11 or later",
+      "evidence": {
+        "files": [
+          "build.gradle:40"
+        ],
+        "explanation": "[CVE-2025-59250](https://github.com/advisories/GHSA-m494-w24q-6f7w): JDBC Driver for SQL Server has improper input validation issue\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.microsoft.sqlserver:mssql-jdbc:11.2.3.jre17 (declared at build.gradle:40)\n\nRecommended fix:\n  - Upgrade com.microsoft.sqlserver:mssql-jdbc to 11.2.4.jre11 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2024-1597",
+      "title": "org.postgresql:postgresql vulnerable to SQL Injection via line comment generation",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2024-1597](https://github.com/advisories/GHSA-24rp-q3w6-vc56): org.postgresql:postgresql vulnerable to SQL Injection via line comment generation\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.postgresql:postgresql:42.6.0 (declared at build.gradle:39)\n\nRecommended fix:\n  - Upgrade org.postgresql:postgresql to 42.2.28 or later",
+      "evidence": {
+        "files": [
+          "build.gradle:39"
+        ],
+        "explanation": "[CVE-2024-1597](https://github.com/advisories/GHSA-24rp-q3w6-vc56): org.postgresql:postgresql vulnerable to SQL Injection via line comment generation\n\nSeverity: CRITICAL\n\nAffected dependencies:\n  - org.postgresql:postgresql:42.6.0 (declared at build.gradle:39)\n\nRecommended fix:\n  - Upgrade org.postgresql:postgresql to 42.2.28 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2023-22102",
+      "title": "MySQL Connectors takeover vulnerability",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2023-22102](https://github.com/advisories/GHSA-m6vm-37g8-gqvh): MySQL Connectors takeover vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.mysql:mysql-connector-j:8.0.33 (declared at build.gradle:38)\n\nRecommended fix:\n  - Upgrade com.mysql:mysql-connector-j to 8.2.0 or later",
+      "evidence": {
+        "files": [
+          "build.gradle:38"
+        ],
+        "explanation": "[CVE-2023-22102](https://github.com/advisories/GHSA-m6vm-37g8-gqvh): MySQL Connectors takeover vulnerability\n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.mysql:mysql-connector-j:8.0.33 (declared at build.gradle:38)\n\nRecommended fix:\n  - Upgrade com.mysql:mysql-connector-j to 8.2.0 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CVE-2022-45868",
+      "title": "Password exposure in H2 Database ",
+      "category": "CVE",
+      "severity": "mandatory",
+      "description": "[CVE-2022-45868](https://github.com/advisories/GHSA-22wj-vf5f-wrvj): Password exposure in H2 Database \n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.h2database:h2:2.1.214 (declared at build.gradle:37)\n\nRecommended fix:\n  - Upgrade com.h2database:h2 to 2.2.220 or later",
+      "evidence": {
+        "files": [
+          "build.gradle:37"
+        ],
+        "explanation": "[CVE-2022-45868](https://github.com/advisories/GHSA-22wj-vf5f-wrvj): Password exposure in H2 Database \n\nSeverity: HIGH\n\nAffected dependencies:\n  - com.h2database:h2:2.1.214 (declared at build.gradle:37)\n\nRecommended fix:\n  - Upgrade com.h2database:h2 to 2.2.220 or later"
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CWE-477",
+      "title": "Use of Obsolete Function",
+      "category": "Code Quality",
+      "severity": "optional",
+      "description": "The code uses deprecated or obsolete functions, which suggests that the code has not been actively reviewed or maintained.",
+      "evidence": {
+        "files": [
+          "src/main/java/org/cloudfoundry/samples/music/repositories/AlbumRepositoryPopulator.java"
+        ],
+        "explanation": "In AlbumRepositoryPopulator.java, raw types are used for CrudRepository at lines 29 and 38 (e.g., 'CrudRepository albumRepository' and 'private void populate(CrudRepository repository)'). Raw types are an obsolete Java feature that bypasses generic type safety, flagged by the Java compiler with unchecked warnings. This indicates the code has not been updated to modern Java generics practices."
+      },
+      "storyPoint": 1
+    },
+    {
+      "id": "CWE-567",
+      "title": "Unsynchronized Access to Shared Data in a Multithreaded Context",
+      "category": "Concurrency & Synchronization",
+      "severity": "potential",
+      "description": "The product does not properly synchronize shared data, such as static variables across threads, which can lead to undefined behavior and unpredictable data changes.",
+      "evidence": {
+        "files": [
+          "src/main/java/org/cloudfoundry/samples/music/web/ErrorController.java"
+        ],
+        "explanation": "ErrorController is a Spring @RestController, which is a singleton by default and shared across all request threads. The field 'private List<int[]> junk = new ArrayList<>()' (line 15) is a mutable instance variable with no synchronization. The fillHeap() method (lines 23-29) writes to this shared list in a while(true) loop without synchronization, allowing concurrent requests to race on the same unsynchronized ArrayList."
+      },
+      "storyPoint": 5
+    },
+    {
+      "id": "CWE-820",
+      "title": "Missing Synchronization",
+      "category": "Concurrency & Synchronization",
+      "severity": "potential",
+      "description": "The product utilizes a shared resource in a concurrent manner but does not attempt to synchronize access to the resource.",
+      "evidence": {
+        "files": [
+          "src/main/java/org/cloudfoundry/samples/music/web/ErrorController.java"
+        ],
+        "explanation": "In ErrorController (line 15), the instance field 'private List<int[]> junk = new ArrayList<>()' is shared across concurrent HTTP request threads since the controller is a Spring singleton. The fillHeap() method (lines 23-29) accesses and modifies this list in a tight loop without any synchronization mechanism (no synchronized block, no volatile, no concurrent collection). Concurrent requests invoking this endpoint would race on the unsynchronized ArrayList."
+      },
+      "storyPoint": 8
+    },
+    {
+      "id": "CWE-732",
+      "title": "Incorrect Permission Assignment for Critical Resource",
+      "category": "Credentials & Secrets",
+      "severity": "optional",
+      "description": "The product specifies permissions for a security-critical resource in a way that allows that resource to be read or modified by unintended actors.",
+      "evidence": {
+        "files": [
+          "src/main/resources/application.yml"
+        ],
+        "explanation": "In application.yml (lines 7-9), all Spring Boot Actuator endpoints are exposed publicly via 'management.endpoints.web.exposure.include: \"*\"'. Additionally, 'management.endpoint.health.show-details: always' exposes sensitive internal health details to all users. This allows unauthenticated access to sensitive endpoints such as /actuator/env (environment variables and configuration), /actuator/beans (application context), /actuator/heapdump, and others that may reveal internal system details."
+      },
+      "storyPoint": 5
+    },
+    {
+      "id": "CWE-798",
+      "title": "Use of Hard-coded Credentials",
+      "category": "Credentials & Secrets",
+      "severity": "optional",
+      "description": "The product contains hard-coded credentials, such as a password or cryptographic key.",
+      "evidence": {
+        "files": [
+          "src/main/resources/application.yml"
+        ],
+        "explanation": "In application.yml (line 47), the PostgreSQL database username 'postgres' is hardcoded in the 'postgres' profile configuration ('username: postgres'). Hardcoded credentials in configuration files checked into version control can be exposed to anyone with repository access and cannot be rotated without code changes."
+      },
+      "storyPoint": 5
+    }
+  ]
 }
